@@ -1,0 +1,39 @@
+:root {
+  --darkcyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --verydarkblue: hsl(212, 21%, 14%);
+  --darkgrayishblue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--cream);
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background-color: var(--white);
+  border-radius: .8rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+#img-content {
+  content: url("images/image-product-desktop.jpg");
+}
+
+#text-content {
+  padding: 1.5rem;
+}

@@ -1,0 +1,15 @@
+@media (max-width: 375px) {
+
+#wrapper {
+  align-items: flex-start;
+}
+
+#container {
+  flex-direction: column;
+}
+
+#img-content {
+  content: url("images/image-product-mobile.jpg");
+}
+
+}
