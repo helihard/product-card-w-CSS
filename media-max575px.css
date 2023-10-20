@@ -1,0 +1,35 @@
+@media (max-width: 575px) {
+
+#wrapper {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#container {
+  flex-direction: column;
+  width: 375px;
+  margin: 1rem;
+}
+
+#image-product-desktop {
+  display: none;
+}
+
+#text-content {
+  padding: 1.5rem;
+}
+
+h1 {
+  margin: .8rem 0 1rem;
+}
+
+#description {
+margin-bottom: 1.2rem;
+font-size: .88rem;
+}
+
+#button {
+  margin-top: 1rem;
+}
+
+}

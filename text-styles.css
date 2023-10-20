@@ -1,5 +1,5 @@
 h1 {
-  margin: .8rem 0 1rem;
+  margin: 1.3rem 0 1.3rem;
   font-family: var(--serif);
   font-size: 2rem;
   line-height: 1;
@@ -19,9 +19,8 @@ p {
 }
 
 #description {
-  font-size: .88rem;
   line-height: 1.6;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
 
 }
 
@@ -44,6 +43,7 @@ p {
 
 
 .attribution { 
+  font-family: var(--sans-serif);
   font-size: 11px; 
   text-align: center; 
 }
