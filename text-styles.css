@@ -35,11 +35,11 @@ p {
   content: "$169.99";
   font-family: var(--sans-serif);
   color: var(--darkgrayishblue);
-  font-size: .88rem;
+  font-size: .85rem;
   text-decoration: line-through;
   position: relative;
-  left: 1.4rem;
-  bottom: .3rem;
+  left: 1.3rem;
+  bottom: .4rem;
 }
 
 

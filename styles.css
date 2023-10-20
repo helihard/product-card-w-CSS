@@ -36,6 +36,25 @@ body {
   padding: 1.5rem;
 }
 
+#button {
+  background-color: var(--darkcyan);
+  color: var(--white);
+  font-family: var(--sans-serif);
+  font-size: .9rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+  padding: .9rem;
+  border-radius: .6rem;
+  margin-top: 1rem;
+}
+
+#button:hover {
+  background-color: hsl(158, 58%, 16%);
+}
+
 
 @media (min-width: 376px) {
   #image-product-mobile {
